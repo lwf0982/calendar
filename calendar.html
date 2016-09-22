@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>万年历</title>
+	<link rel="stylesheet" meadia="screen" href="src/styles/basic.css">
+</head>
+<body>
+	<h2>万年历</h2>
+	<div id="calendarboxscreen">
+		<div id="calendarbox">
+			<div class="calendar">
+				<div class="calendar_select">
+					<div id="time"></div>
+					<div class="select_date">
+						<div id="select_year">
+							<a class="left_arrow" method="prev" href=""> </a>
+							<select id="yearid"  value=""> </select>
+							<a class="right_arrow" nethod="next" href=""> </a>
+						</div>
+						<div id="select_month">
+							<a class="left_arrow" method="prev" href=""> </a>
+							<select id="month" value=""> </select>
+							<a class="right_arrow" nethod="next" href=""> </a>
+						</div>
+					</div>
+					<div id="backtoday">
+						<a class="goback" href="">返回今天 <a>
+					</div>
+				</div>
+				<div id="calendar_week">
+					<ul>
+						<li>星期日</li>
+						<li>星期一</li>
+						<li>星期二</li>
+						<li>星期三</li>
+						<li>星期四</li>
+						<li>星期五</li>
+						<li>星期六</li>
+					</ul>
+				</div>
+				<div id="calendar_list" >
+				</div>
+			</div>
+			<div class="reseverspace">
+			</div>
+	          </div>
+	          <div id="calendardispay">
+	          		<div id="daydetail"></div>
+	          		<div id="daydispay">
+	          			<p class="dispaynewday"></p>
+	          			<p class="displaylunarday"></p>
+	          			<p class="displayanimal"></p>
+	          		</div>
+	          </div>
+	 </div>
+          <script src="src/script/global.js"></script>
+</body>
+</html>
